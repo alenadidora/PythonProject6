@@ -1,3 +1,1 @@
-print(r"(\___/)")
-print(r"(='.'=)")
-print(r'(")_(")')
+print("Привет, Python!", "Hello, Python!", "Bonjour Python!", "Hej, Python!", "Hola, Python!", sep="\n")
