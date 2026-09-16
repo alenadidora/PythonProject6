@@ -1,1 +1,3 @@
-print("Пивет", "Python!", sep=" ")
+S = int(input())
+R = int(input())
+print(S + R)
