@@ -1,6 +1,7 @@
-weight = float(input())
-height = float(input( ))
-weight_kg = weight * 0.45359237
-height_m = height * 0.0254
-imi = weight_kg / (height_m ** 2)
-print(f"{imi:.2f}")
+area = 1
+rain = 1
+area_m2 = area * 10000
+rain_m = rain / 100
+v_m3 = area_m2 * rain_m
+v_l = v_m3 * 1000
+print(v_l)
