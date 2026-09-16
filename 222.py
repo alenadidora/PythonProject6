@@ -1,1 +1,6 @@
-print("Привет, Python!", "Hello, Python!", "Bonjour Python!", "Hej, Python!", "Hola, Python!", sep="\n")
+print('Как вас зовут?')
+name = input()
+print("Здравствуйте,", name)
+print("Что Вам нравится?")
+hobby = input()
+print('Отлино!', hobby, '- хорошее увлечение')
