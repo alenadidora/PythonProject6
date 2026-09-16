@@ -1,9 +1,8 @@
-cost = float(input())
-a = 96
-b = 48
-gold = a // 16
-total = a * b
-gold_total = cost - total
-price = gold_total / gold
-print(price)
+import math
+
+r1 = float(input())
+r2 = float(input())
+area = math.pi * (r1 ** 2 - r2 ** 2)
+print(abs(area))
+
 
