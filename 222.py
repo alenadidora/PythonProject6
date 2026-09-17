@@ -1,4 +1,3 @@
-N = int(input())
-K = int(input())
-ostatok = N % K
-print(ostatok)
+meters = int(input())
+miles = meters // 1609
+print(miles)
