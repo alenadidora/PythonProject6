@@ -1,6 +1,9 @@
-X, Y, N = map(int, input().split())
-price_kop = X * 100 + Y
-total_kop = price_kop * N
-rubles = total_kop // 100
-kop = total_kop % 100
-print(f"{rubles} руб. {kop} коп.")
+n = int(input())
+
+x1 = r"(\___/)"
+x2 = r"(='.'=)"
+x3 = r'(")_(")'
+
+print(x1 * n)
+print(x2 * n)
+print(x3 * n)
