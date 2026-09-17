@@ -1,2 +1,5 @@
-X, Y = map(int, input().split())
-print(1 if (Y and X % Y == 0) or (X and Y % X == 0) else 0)
+n = float(input())
+total_minutes = int(n // 0.5)
+hours = total_minutes // 60
+minutes = total_minutes % 60
+print(f"{hours} {minutes}")
