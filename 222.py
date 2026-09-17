@@ -1,6 +1,7 @@
-K = input().strip()
-N = int(input().strip())
-R = int(input().strip())
+raw = input('Enter number: ')
 
-result = int(K * N) * R
-print(result)
+try:
+    num = int(raw)
+    print(num)
+except ValueError:
+    print('Ошибка: введено не число')
