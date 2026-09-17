@@ -1,3 +1,3 @@
-meters = int(input())
-miles = meters // 1609
-print(miles)
+price = int(input())
+x = (price // 100) % 10
+print(x)
