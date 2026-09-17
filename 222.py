@@ -1,2 +1,2 @@
-x, y = map(int, input().split())
-print(1 if (y and x % y == 0) or (x and y % x == 0) else 0)
+X, Y = map(int, input().split())
+print(1 if (Y and X % Y == 0) or (X and Y % X == 0) else 0)
