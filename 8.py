@@ -1,0 +1,12 @@
+b1 = input()
+b2 = input()
+b3 = input()
+b4 = input()
+b5 = input()
+print('Плей-лист мамы:')
+print(b5)
+print(b4)
+print(b3)
+print(b2)
+print(b1)
+
